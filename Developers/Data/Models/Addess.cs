@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-	public class Adrdess : BaseModel
+	public class Addess : BaseModel
 	{
 		public string Country{ get; set; }
 		public string City { get; set; }
-		public long PostalCode { get; set; }
+		public string PostalCode { get; set; }
 		public string Neighborhood{ get; set; }
 		public string Street{ get; set; }
 		public string Complement{ get; set; }
