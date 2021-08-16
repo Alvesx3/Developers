@@ -9,7 +9,7 @@ namespace Data.Models
     public class Contacts : BaseModel
     {
         public string Email { get; set; }
-        public Int64 Telephone { get; set; }
+        public string Telephone { get; set; }
         public string Linkedin { get; set; }
     }
 }
