@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-	public class Addess : BaseModel
+	public class Address : BaseModel
 	{
 		public string Country{ get; set; }
 		public string City { get; set; }
@@ -14,6 +14,6 @@ namespace Data.Models
 		public string Neighborhood{ get; set; }
 		public string Street{ get; set; }
 		public string Complement{ get; set; }
-		public int Number { get; set; }
+		public string Number { get; set; }
 	}
 }
