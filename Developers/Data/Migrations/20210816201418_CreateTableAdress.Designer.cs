@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Data.Migrations
 {
     [DbContext(typeof(DevContext))]
-    [Migration("20210816194000_CreateTableAdress")]
+    [Migration("20210816201418_CreateTableAdress")]
     partial class CreateTableAdress
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -50,7 +50,7 @@ namespace Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("addresses");
+                    b.ToTable("Addresses");
                 });
 #pragma warning restore 612, 618
         }

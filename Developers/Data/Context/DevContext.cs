@@ -18,6 +18,6 @@ namespace Data.Context
         {
             optionsBuilder.UseSqlServer(@"Data Source=192.168.0.196;Initial Catalog=Developers;Persist Security Info=True;User ID=developers;Password=Asd123@");
         }
-        DbSet<Address> addresses { get; set; }
+        DbSet<Address> Addresses { get; set; }
     }
 }
