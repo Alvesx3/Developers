@@ -22,5 +22,6 @@ namespace Data.Context
         DbSet<Contacts> Contacts { get; set; }
         DbSet<Profile> Profiles { get; set; }
         DbSet<User> Users { get; set; }
+        DbSet<Developer> Developers { get; set; }
     }
 }
