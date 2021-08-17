@@ -10,7 +10,7 @@ namespace Data.Models
     {
         //esta classe é uma composição das demais <------
 
-        //public Profile profile { get; set; }
+        public Profile profile { get; set; }
         //public User user { get; set; }
         //public Contact contact { get; set; }
     }
