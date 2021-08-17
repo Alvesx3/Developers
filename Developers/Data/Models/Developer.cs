@@ -12,6 +12,6 @@ namespace Data.Models
 
         public Profile profile { get; set; }
         public User user { get; set; }
-        //public Contact contact { get; set; }
+        public Contacts contact { get; set; }
     }
 }
