@@ -21,5 +21,6 @@ namespace Data.Context
         DbSet<Address> Addresses { get; set; }
         DbSet<Contacts> Contacts { get; set; }
         DbSet<Profile> Profiles { get; set; }
+        DbSet<User> Users { get; set; }
     }
 }
