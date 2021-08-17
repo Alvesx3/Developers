@@ -11,6 +11,6 @@ namespace Data.Models
         public string Email { get; set; }
         public string Telephone { get; set; }
         public string Linkedin { get; set; }
-        //public Address Address { get; set; }
+        public Address Address { get; set; }
     }
 }
